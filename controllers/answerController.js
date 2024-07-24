@@ -20,7 +20,7 @@ exports.createAnswer = catchAsync(async (req, res, next) => {
 });
 
 exports.checkIfDublicateAnswer = catchAsync(async (req, res, next) => {
-  const answer = await Answer.findOne({ question: req.body.question, user: req.user.id });
+  const answer = await Answer.find({ question: req.body.question, user: req.user.id });
   if(answer.length > 0){
     return next(new AppError('You have already answered this question', 400));
   }
