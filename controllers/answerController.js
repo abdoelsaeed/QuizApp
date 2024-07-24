@@ -19,6 +19,14 @@ exports.createAnswer = catchAsync(async (req, res, next) => {
   return next(new AppError('Only users can create answers', 403)); 
 });
 
+exports.checkIfDublicateAnswer = catchAsync(async (req, res, next) => {
+  const answer = await Answer.findOne({ question: req.body.question, user: req.user.id });
+  if(answer.length > 0){
+    return next(new AppError('You have already answered this question', 400));
+  }
+  next();
+});
+
 exports.getAllAnswer = factory.getAll(Answer);
 exports.getAnswer = factory.getOne(Answer);
 exports.updateAnswer = factory.updateOne(Answer);

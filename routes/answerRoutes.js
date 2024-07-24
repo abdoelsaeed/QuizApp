@@ -6,7 +6,7 @@ const authController = require("../controllers/authController");
 
 const router = express.Router();
 
-router.route('/').post(authController.protect ,answerController.createAnswer)
+router.route('/').post(authController.protect,answerController.checkIfDublicateAnswer ,answerController.createAnswer)
 .get(authController.protect,authController.authorization('teacher','admin'),answerController.getAllAnswer);
 router.route('/:id').patch(authController.protect,authController.authorization('teacher','admin'),answerController.updateAnswer)
 .delete(authController.protect,authController.authorization('teacher','admin'),answerController.deleteAnswer)
