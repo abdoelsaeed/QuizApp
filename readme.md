@@ -5,12 +5,19 @@ Implementation of RESTful APIs for QuizApp.
 Data Modelling: Efficient data modeling techniques for handling quizzes, users, answers, questions.
 
 # Features 🎖️
-- Create Quiz: teachers can create Quiz and send notifications for users
-- Solve Quiz: users can solve Quiz and you can get a quiz score for each one separately
+- Authentication with JWT (Reset Password with email)
+- Login (User/Admin)
+- Register
+- Forgot Password
+- Admin Routes
+- CRUD Operations questions, answers, users
+- CRUD operations for categories
+- CRUD operations for users
+- Pagination and search where necessary
+- API Security (NoSQL Injections, XSS Attacks, http param pollution etc)
 - User:You can find out your rank in the quiz
 - Teachers: Certificates of appreciation are sent to all students who obtain the final grade  
-- Register & Login: Authorization & Authentication
-- Email Notifications: Sending emails for various events like sign-up, password reset using Nodemailer 
+- Email Notifications: Sending emails for various events like sign-up, password reset using Nodemailer  & gmail
 
 # Technologies Used
 - Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -46,4 +53,6 @@ Data Modelling: Efficient data modeling techniques for handling quizzes, users, 
     ```sh
     npm run dev
     ```
+# Contributing
+I welcome contributions! Please fork the repository and create a pull request with your changes.
 

@@ -9,10 +9,7 @@ dotenv.config({ path: './config.env' });
 
 const app = require('./app');
 
-const DB = process.env.DATABASE.replace(
-  '<password>',
-  process.env.DATABASE_PASSWORD,
-);
+const DB = 'mongodb+srv://abdoelsaeed2:12345@cluster000.h7jdjme.mongodb.net/QuizApp?retryWrites=true&w=majority&appName=Cluster000'
 
 // الاتصال بقاعدة البيانات
 mongoose
