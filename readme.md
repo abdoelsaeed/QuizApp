@@ -28,11 +28,14 @@ Data Modelling: Efficient data modeling techniques for handling quizzes, users, 
 - mongoSanitizer: Data sanitization against nosql query injection
 
 #🚀 Getting Started
-    ```1.Install Dependencies:
-        npm install
-
-    2.Set Up Environment Variables: Create a .env file and configure the required environment variables.
-
-    ```3.Start the Development Server:
-        npm run dev
+1. **Install Dependencies**
+    ```sh
+    npm install
+    ```
+2. **Set Up Environment Variables**:
+    Create a `.env` file in the root directory of the project and configure the required environment variables.
+3. **Start the Development Server**:
+    ```sh
+    npm run dev
+    ```
 
