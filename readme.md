@@ -34,8 +34,9 @@ Data Modelling: Efficient data modeling techniques for handling quizzes, users, 
 - Validator: Library to validate and sanitize strings.
 - mongoSanitizer: Data sanitization against nosql query injection
 
-# rung api https://quizapp-q.up.railway.app/
+# Deploy api https://quizapp-q.up.railway.app/
 
+ 
 # 🚀 Getting Started
 1. **Clone this repository to your local machine**
     ```sh
