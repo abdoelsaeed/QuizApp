@@ -38,7 +38,7 @@ Data Modelling: Efficient data modeling techniques for handling quizzes, users, 
 Domin [https://quizapp-q.up.railway.app/](https://quizapp-q.up.railway.app/)
 
 # API Documentation 
-Postman Doc [https://documenter.getpostman.com/view/your-api-documentation-link](https://documenter.getpostman.com/view/your-api-documentation-link).
+Postman Doc [here](https://web.postman.co/workspace/My-Workspace~cfcd2dc7-c94a-48a7-885c-9245a114ac86/collection/32765959-c7eb6c50-2bb7-4159-9725-851008ec6a7e).
 
 
 # 🚀 Getting Started
