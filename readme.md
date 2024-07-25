@@ -27,7 +27,8 @@ Data Modelling: Efficient data modeling techniques for handling quizzes, users, 
 - Validator: Library to validate and sanitize strings.
 - mongoSanitizer: Data sanitization against nosql query injection
 
-#🚀 Getting Started
+
+# 🚀 Getting Started
 1. **Clone this repository to your local machine**
     ```sh
     git clone https://github.com/abdoelsaeed/QuizApp.git
