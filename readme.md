@@ -35,8 +35,11 @@ Data Modelling: Efficient data modeling techniques for handling quizzes, users, 
 - mongoSanitizer: Data sanitization against nosql query injection
 
 # Deploy api https://quizapp-q.up.railway.app/
-# postman doc https://web.postman.co/workspace/My-Workspace~cfcd2dc7-c94a-48a7-885c-9245a114ac86/collection/32765959-c7eb6c50-2bb7-4159-9725-851008ec6a7e
- 
+
+# ## API Documentation
+ [here](https://documenter.getpostman.com/view/your-api-documentation-link).
+
+
 # 🚀 Getting Started
 1. **Clone this repository to your local machine**
     ```sh
