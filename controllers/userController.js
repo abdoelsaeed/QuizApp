@@ -29,7 +29,6 @@ exports.getUser = catchAsync(async (req, res, next) => {
   if (!user) {
     return next(new AppError('No user found',404));
   } 
-
   const scorePromises = user.scores.map(async score => {
     const quizId = score.quiz;
     const calculatedScore = await user.calculateAndUpdateScore(quizId);

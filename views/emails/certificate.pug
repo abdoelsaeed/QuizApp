@@ -1,0 +1,78 @@
+extends baseEmail
+
+block content
+  doctype html
+  html
+    head
+      meta(charset="UTF-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0")
+      title Certificate of Appreciation
+      link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap")
+      style.
+        body {
+          font-family: 'Arial, sans-serif';
+          background-color: #f9f9f9;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+        .certificate {
+          border: 15px solid #d4af37;
+          padding: 50px;
+          width: 80%;
+          max-width: 800px;
+          background-color: #fff;
+          text-align: center;
+          box-shadow: 0 0 20px rgba(0,0,0,0.2);
+          position: relative;
+        }
+        .certificate h1 {
+          font-size: 3em;
+          margin-bottom: 0;
+          font-family: 'Great Vibes', cursive;
+          color: #d4af37;
+        }
+        .certificate p {
+          margin: 10px 0;
+          font-size: 1.2em;
+          color: #555;
+        }
+        .certificate .recipient {
+          font-size: 1.5em;
+          font-weight: bold;
+          margin: 20px 0;
+          color: #333;
+        }
+        .certificate .details {
+          margin-top: 40px;
+          display: flex;
+          justify-content: space-between;
+          padding: 0 50px;
+        }
+        .certificate .details div {
+          text-align: center;
+        }
+        .certificate .details div p {
+          margin: 5px 0;
+        }
+        .certificate .details .signature {
+          border-top: 1px solid #555;
+          padding-top: 5px;
+          width: 200px;
+          margin: 0 auto;
+        }
+    body
+      .certificate
+        h1 Certificate of Appreciation
+        p This is presented to
+        .recipient #{firstname}
+        p For outstanding performance in
+        p #{url}
+        .details
+          div
+            p We proud for you
+          div
+            p Signature
+            p.signature Abdulrahman Mohamed

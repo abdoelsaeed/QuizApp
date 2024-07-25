@@ -5,6 +5,7 @@ const AppError = require('../errFolder/err');
 const catchAsync = require('../errFolder/catchAsyn');
 const Answer = require('../models/answerModle');
 const factory = require('./handlerFactory');
+const User = require('../models/userModle');
 
 exports.createAnswer = catchAsync(async (req, res, next) => {
   if(req.user.role === 'user'){

@@ -1,7 +1,8 @@
 # Project QuizApp
 
-## Description
-Built using modern technologies: node.js, express ,mongoDB, mongoose And More😲
+## Description 😲
+Implementation of RESTful APIs for QuizApp.
+Data Modelling: Efficient data modeling techniques for handling quizzes, users, answers, questions.
 
 # Features 🎖️
 - Create Quiz: teachers can create Quiz and send notifications for users
@@ -9,5 +10,25 @@ Built using modern technologies: node.js, express ,mongoDB, mongoose And More�
 - User:You can find out your rank in the quiz
 - Teachers: Certificates of appreciation are sent to all students who obtain the final grade  
 - Register & Login: Authorization & Authentication
-- CURD OPREATOR 
+- Email Notifications: Sending emails for various events like sign-up, password reset using Nodemailer 
+
+# Technologies Used
+- Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine.
+- Express: Fast, unopinionated, minimalist web framework for Node.js.
+- Mongoose: Elegant MongoDB object modeling for Node.js.
+- MongoDB: NoSQL database for storing data.
+- JWT: JSON Web Token for secure user authentication.
+- Pug: Template engine for server-side rendering.
+- Nodemailer: Module for sending emails from Node.js applications.
+- Helmet: Secure HTTP headers middleware.
+- CORS: Middleware to enable Cross-Origin Resource Sharing.
+- Dotenv: Module to load environment variables from a .env file.
+- Bcrypt: Library to hash passwords.
+- Validator: Library to validate and sanitize strings.
+- mongoSanitizer: Data sanitization against nosql query injection
+
+#🚀 Getting Started
+```Install Dependencies:
+npm install
+
 
